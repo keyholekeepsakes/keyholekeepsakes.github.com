@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Keyhole Keepsakes &mdash; {{ page.title }} &mdash; Jewelry by Katrina Olson</title>
+<link rel="stylesheet" href="/style.css" type="text/css" />
+<link rel="stylesheet" href="/color.css" type="text/css" />
+</head>
+
+<body>
+<div id="spacer"><!-- necessary for vertical centering --></div>
+
+{{ content }}
+
+<div id="navigation">
+<h1 id="keyholekeepsakes"><a href="/">KeyholeKeepsakes.ca</a></h1>
+<ul>
+<li {{ page.is_title  }}>&nbsp;</li>
+<li {{ page.necklaces }}><a href="/necklaces/">Necklaces</a></li>
+<li {{ page.bracelets }}><a href="/bracelets/">Bracelets</a></li>
+<li {{ page.rings     }}><a href="/rings/">Rings</a></li>
+</ul>
+</div>
+
+<div id="footer">
+<p id="copyright">&copy; 2012 <a href="mailto:katrina@keyholekeepsakes.ca">Katrina Olson</a>. All rights reserved.</p>
+</div>
+
+</body>
+</html>
